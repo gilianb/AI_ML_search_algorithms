@@ -1,44 +1,55 @@
-AI/ML Search Algorithms
-Overview
-This repository contains a collection of search algorithms used in Artificial Intelligence (AI) and Machine Learning (ML) applications. These algorithms are designed to find optimal solutions to complex problems by navigating through vast search spaces efficiently.
+# AI/ML Search Algorithms
 
-Features
-Uninformed Search Algorithms:
-Breadth-First Search (BFS)
-Depth-First Search (DFS)
-Informed Search Algorithms:
-Greedy Search
-A* Search
-Local Search Algorithms:
-Hill Climbing
-Simulated Annealing
-ML-based Search Algorithms:
-Reinforcement Learning (RL) for search
-Technologies
-Language: Python
-Libraries: NumPy, SciPy, scikit-learn
-Installation
-Prerequisites
-Python 3.8 or higher
-Required libraries: numpy, scipy, scikit-learn
-Steps
-Clone the repository:
+## Overview
 
-BASH
+This repository features a collection of **search algorithms** commonly used in **Artificial Intelligence (AI) and Machine Learning (ML)**. These algorithms are designed to efficiently explore search spaces and find optimal solutions to complex problems.
 
-git clone https://github.com/gilianb/AI_ML_search_algorithms.git
-cd AI_ML_search_algorithms
-Install required libraries:
+## Features
 
-BASH
+### Uninformed Search Algorithms
+- **Breadth-First Search (BFS)**
+- **Depth-First Search (DFS)**
 
-pip install -r requirements.txt
-Usage
-Here's an example of using the A* search algorithm:
+### Informed Search Algorithms
+- **Greedy Search**
+- **A* Search**
 
-Python
+### Local Search Algorithms
+- **Hill Climbing**
+- **Simulated Annealing**
 
-Collapse
+### Machine Learning-based Search
+- **Reinforcement Learning (RL) for search optimization**
+
+## Technologies
+
+- **Language**: Python
+- **Libraries**: NumPy, SciPy, scikit-learn
+
+## Installation
+
+### Prerequisites
+- **Python 3.8 or higher**
+- **Required libraries**: NumPy, SciPy, scikit-learn
+
+### Steps
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/gilianb/AI_ML_search_algorithms.git
+   cd AI_ML_search_algorithms
+   ```
+
+2. Install required libraries:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+Here's an example of using the **A* search algorithm**:
+
+```python
 from search_algorithms import AStarSearch
 
 # Define the problem
@@ -55,29 +66,44 @@ astar = AStarSearch(problem)
 path = astar.search()
 
 print(path)
-Performance
-Time Complexity:
-BFS: O(b^d)
-DFS: O(b^d)
-A*: O(b^d) in the worst case, but typically much faster with a good heuristic
-Testing
+```
+
+## Performance
+
+- **Time Complexity**:
+  - **BFS**: O(b^d)
+  - **DFS**: O(b^d)
+  - **A***: O(b^d) in the worst case, but typically much faster with a good heuristic
+
+## Testing
+
 To run the tests, execute the following command:
 
-BASH
-
+```bash
 python -m unittest discover -s tests
-Contributing
-Contributions are welcome! Please follow these steps:
+```
 
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Commit your changes.
-Push to your fork and submit a pull request.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## Contributing
 
-Contact
+We welcome contributions! To contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes.
+4. Push to your fork and submit a pull request.
+
+## License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
 For questions or suggestions, please contact:
 
-Gilian B.
-GitHub: @gilianb
+- **Gilian B.**
+- GitHub: [@gilianb](https://github.com/gilianb)
+
+---
+
+⭐ If you find this project useful, please consider giving it a star! ⭐
+
